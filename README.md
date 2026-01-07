@@ -67,38 +67,6 @@ Supabase Storage → PDFs
 - **Supabase Storage** – PDF storage
 - **Environment Variables** – secrets management
 
----
-
-## 📂 Project Structure
-
-Multi-Source-RAG/
-│
-├── backend/
-│ ├── main.py
-│ ├── routes/
-│ │ ├── ingest.py
-│ │ └── ask.py
-│ ├── rag/
-│ │ ├── loaders.py
-│ │ ├── processor.py
-│ │ ├── vector_store.py
-│ │ └── generate_answer.py
-│ └── requirements.txt
-│
-├── frontend/
-│ ├── app.py
-│ ├── components/
-│ │ ├── uploader.py
-│ │ ├── sidebar.py
-│ │ └── chat.py
-│ └── utils/
-│ └── app_client.py
-│
-├── dbv1/ # Local vector DB (dev)
-├── .env
-├── .gitignore
-└── README.md
-
 
 ---
 
